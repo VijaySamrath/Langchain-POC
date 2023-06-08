@@ -13,7 +13,7 @@ os.environ['OPENAI_API_KEY'] = apikey
 
 #App framework
 st.title('🦜🔗 LLm chat bot')
-prompt = st.text_input('Plug in your prompt here')
+prompt = st.text_input('ASK me Anything Here')
 
 title_template = PromptTemplate(
     input_variables = ['topic'],
